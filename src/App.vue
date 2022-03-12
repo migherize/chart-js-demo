@@ -10,6 +10,7 @@
   text-align: center;
   background-color: rgba(19, 35, 47, 0.9);
   color: white;
+  height: 1000px;
 }
 
 nav {

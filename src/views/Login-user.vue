@@ -1,7 +1,11 @@
 <template>
   <div class="login">
-    <h1 class="title">Login in the page</h1>
     <form action class="form" @submit.prevent="login">
+      <div align="center">
+    <figure class="image is-128x128">
+      <img class="is-rounded" src="../assets/logo.png" >
+    </figure>
+      </div>
       <label class="form-label" for="#email">Email:</label>
       <input
         v-model="email"
@@ -54,6 +58,7 @@ export default {
 }
 .login {
   padding: 2rem;
+  padding-top: 200px;
 }
 .title {
   text-align: center;
